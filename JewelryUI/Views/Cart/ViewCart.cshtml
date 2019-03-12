@@ -1,0 +1,43 @@
+﻿@using JewelryUI.Models
+@{
+    ViewBag.Title = "ViewCart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ShoppingCart cart = (ShoppingCart)Session[WebUtil.CART];
+}
+<div style="margin-top:10px">
+    <a href="/Order/index">Place Order</a>
+</div>
+<table class="col-lg-7 table-bordered table-responsive table-striped">
+    <thead>
+        <tr>
+            <th style="width:10px">&nbsp;</th>
+            <th style="width:10px">&nbsp;</th>
+            <th class="col-lg-4">Item</th>
+            <th class="col-lg-2">Price</th>
+            <th class="col-lg-1">Qty</th>
+            <th class="col-lg-2">Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (cart != null && cart.NumberOfItems > 0)
+        {
+            foreach (var cItem in cart.Items)
+            {
+                <tr>
+                    <td id="id"style="width:10px"><a href="/Cart/Remove/@cItem.Id"><span class="glyphicon glyphicon-remove"></span></a></td>
+                    <td><img src="@cItem.ImageUrl" alt="@cItem.Name" class="img-responsive" style="height:20px;" /></td>
+                    <td id="name" class="col-lg-4">@cItem.Name </td>
+                    <td class="col-lg-2">@cItem.Price</td>
+                    <td>
+                        <input type="text" class="col-lg-1 form-control" style="width:75px" value="@cItem.Quantity" />
+                    </td>
+                    <td id="amount" class="col-lg-2">@cItem.Amount</td>
+                </tr>
+            }
+
+
+        }
+    </tbody>
+</table>
+
+

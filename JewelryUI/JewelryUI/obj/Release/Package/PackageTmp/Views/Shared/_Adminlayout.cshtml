@@ -1,0 +1,140 @@
+﻿@using JewelryUI.Models
+@{
+    List<SelectListItem> Categories = ViewBag.categories;
+    List<SelectListItem> Types = ViewBag.types;
+    List<SelectListItem> Colors = ViewBag.colors;
+    List<SelectListItem> status = ViewBag.status;
+    UserModel currentUser = (UserModel)Session[WebUtil.CURRENT_USER];
+    var users = ViewBag.users;
+}
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <link href="~/Content/main.css" rel="stylesheet" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-fixed-top navbar-inverse">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        Gew<span class="glyphicon glyphicon-certificate"></span>elary
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            @Html.ActionLink("Admin Home", "home", "admin")
+                        </li>
+                        <li>
+                            @Html.ActionLink("User Home", "index", "Home")
+                        </li>
+                        <li>
+                            @Html.ActionLink("Orders", "order", "order")
+                        </li>
+                        <li>
+                            @Html.ActionLink("Add Products", "create", "products")
+                        </li>
+                    </ul>
+                    @if (currentUser != null)
+                    {
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;@currentUser.FullName<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        @Html.ActionLink("Log Out", "Logout", "Users")
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    }
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="leftsection" class="col-lg-3">
+                <div class="logo"><img src="~/Images/logo.jpg" class="img-responsive logo" /></div>
+                <div class="list-group">
+                    <div class="list-group-item active">Admin Actions</div>
+                    <div class="list-group-item"><a href="~/order/order">Orders</a></div>
+                    <div class="list-group-item"><a href="~/Products/create">Add Products</a></div>
+                    <div class="list-group-item">Registered Users<span class="badge" style="color:white;background-color:black">@users</span></div>
+                    <div class="list-group-item">Current Visitors<span class="badge" id="badge" style="color:white;background-color:black"></span></div>
+                </div>
+                @if(ViewBag.status != null)
+                {
+                <ul class="list-group">
+                    <li class="list-group-item active">Order Details</li>
+                    <li class="list-group-item"><a href="/order/detailonstatus/1">Pending</a><span class="badge">@ViewBag.a1</span></li>
+                    <li class="list-group-item"><a href="/order/detailonstatus/2">In Process</a><span class="badge">@ViewBag.a2</span></li>
+                    <li class="list-group-item"><a href="/order/detailonstatus/3">Delivered</a><span class="badge">@ViewBag.a3</span></li>
+                    <li class="list-group-item"><a href="/order/detailonstatus/6">cancelled</a><span class="badge">@ViewBag.a4</span></li>
+                </ul>
+                }
+            </div>
+                <div>&nbsp;</div>
+                <div class="col-lg-9">
+                    <div>
+                        <h3 style="color:red;text-align:center">Admin Page</h3>  
+                    </div>
+                    <div>
+                        @RenderBody()
+                    </div>
+                </div>      
+        </div>
+    </div>
+    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery.signalR-2.2.2.js"></script>
+    <script src="/signalr/hubs"></script>
+    <script type="text/javascript">
+        $(function () {
+            var connection = $.hubConnection();
+            var hub = connection.createHubProxy("MyNewHub");
+            hub.on("onrecordhit", function (count) {
+                $('#badge').text(count);
+            });
+            connection.start(function () {
+                hub.invoke('Recordhit');
+            });
+            $(".addcartbtn").click(function () {
+                var obj = {
+                    "Id": $(this).data("pid"),
+                    "Name": $(this).data("pname"),
+                    "Price": $(this).data("pprice"),
+                    "ImageUrl": $(this).data("purl"),
+                    "Quantity": $(this).data("pqty")
+                };
+                $.ajax(
+                  {
+                      url: "/Cart/Add",
+                      type: "get",
+                      data: obj
+                  }).done(function (itemscount) {
+                      $("#cartitems").text(itemscount);
+                  });
+            });
+        });
+
+    </script>
+</body>
+</html>

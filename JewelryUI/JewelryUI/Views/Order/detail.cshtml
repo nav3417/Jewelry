@@ -1,0 +1,78 @@
+﻿
+{
+    ViewBag.Title = "detail";
+}
+
+@model JewelryUI.Models.OrderModel
+<div class="modal fade" id="ordedetail" role="dialog" style="height:400px">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header" style="color:red">
+                <a href="/Home/Index"><span aria-hidden="true">&times;</span></a>
+                <div class="modal-title" id="title">@ViewBag.Title</div>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-2">orderId :</div>
+                    <div>@Model.Id</div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2">Order Holder:</div>
+                    <div>@Model.OrderHolder</div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2">Order Date:</div>
+                    <div>@Model.orderdate</div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2">Order Status</div>
+                    <div>@Model.status</div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2">Cell NO:</div>
+                    <div>@Model.cellno</div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div>@Model.City</div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2">Total Amount</div>
+                    <div>@Model.totalAmount</div>
+                </div>
+                <table class="table table-bordered table-responsive table-striped">
+                    <thead>
+                        <tr>
+                            <th class="col-lg-1">Id</th>
+                            <th class="col-lg-1">Quantity</th>
+                            <th class="col-lg-1">Jewelry</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (var od in Model.detail)
+                        {
+                            <tr>
+                                <td id="id">@od.Id</td>
+                                <td>@od.Quantity</td>
+                                <td id="name">@od.jewelry</td>
+
+                            </tr>
+
+                        }
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Scripts/jquery-3.1.1.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script type="text/javascript">
+        $(function () {
+            $("#ordedetail").modal();
+        });
+</script>

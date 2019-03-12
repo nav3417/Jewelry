@@ -1,0 +1,112 @@
+﻿@using JewelryUI.Models
+@{
+    ViewBag.Title = "order";
+    List<OrderModel> orders = ViewBag.order;
+    Layout = "~/Views/Shared/_Adminlayout.cshtml";
+ }
+<div style="clear:both"></div>
+<div>
+    @if (orders != null)
+    {
+    <div class="row">
+        <div class="col-lg-10">
+            <h2 style="color:red; text-align-last:center">Orders</h2>
+            <table class="table table-bordered" id="orders">
+                <thead>
+                    <tr>
+                        
+                        <th>Orderdate</th>
+                        <th>OrderHolder</th>
+                        <th>Contact No</th>
+                        <th>Amount</th>
+                        <th>city</th>
+                        <th>status</th>
+                        <th>Detail</th>
+                        <th>Delete</th>
+                        
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (orders != null)
+                    {
+                        foreach (var cItem in orders)
+                        {
+                            <tr>
+                                
+                                <td>@cItem.orderdate</td>
+                                <td id="name">@cItem.OrderHolder </td>
+                                <td>@cItem.cellno</td>
+                                <td id="amount">@cItem.totalAmount</td>
+                                <td>@cItem.City</td>
+                                <td id="status"><a href="javascript:status('@cItem.Id')">@cItem.status</a></td>
+                                <td><a href="javascript:showOrderdetail('@cItem.Id')"> Detail</a></td>
+                                @*<td><a href="/order/delete/@cItem.Id">Delete</a></td>*@
+                                <td><button data-order-id="@cItem.Id" class="btn-link js-delete">Delete</button></td>
+
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    }
+    else
+    {
+        <div class="h5" style="color:red">No Order is recieved yet</div> 
+    }
+</div>
+<div id="Ordedetail"></div>
+<div id="stat"></div>
+<script src="~/Scripts/jquery-3.1.1.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#orders .js-delete").on("click", function () {
+            if (confirm("Are you sute, You want to delete this order?"))
+                var but = $(this);
+            {
+                $.ajax({
+                    url: "/order/delete/" + but.attr("data-order-id"),
+                    method: "DELETE",
+                    success: function () {
+                        but.parent("tr").remove();
+                        alert("Record has been deleted");
+                        $.ajax({
+                            url:"/order/order",
+                        });
+                    },
+                    
+                });
+
+            }
+        });
+    });
+    function showOrderdetail(Id) {
+        $("#loginModel").modal();
+        $.ajax
+        ({
+            url: "/Order/detail/" + Id,
+            type: "get",
+            success: function (result) {
+                $("#Ordedetail").html(result)
+            }
+        });
+    }
+    function status(Id) {
+        $("#status").modal();
+        $.ajax
+        ({
+            url: "/Order/status/" + Id,
+            type: "get",
+            success: function (result) {
+                alert(result)
+                $("#Ordedetail").html(result)
+            }
+        });
+    }
+</script>
+
+
+

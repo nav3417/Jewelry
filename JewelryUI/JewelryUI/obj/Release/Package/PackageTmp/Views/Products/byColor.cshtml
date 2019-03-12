@@ -1,0 +1,8 @@
+﻿@using JewelryUI.Models
+@{
+    ViewBag.Title = "byColor";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    List<ProductSummaryModel> products = ViewBag.color;
+}
+@Html.Partial("~/Views/Products/_SummaryList.cshtml", products)
+

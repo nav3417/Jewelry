@@ -1,0 +1,17 @@
+﻿@using JewelryUI.Models
+@model ProductDetailModel
+@{
+    ViewBag.Title = "show";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ProductDetailModel product = ViewBag.produst;
+}
+
+<div>@product.Name</div>
+<div>@product.ImageUrl</div>
+<div>@product.Price</div>
+<div>@product.ReleaseDate</div>
+<div>@product.Color</div>
+<div>@product.Category</div>
+<div>@product.Description</div>
+<div>@product.type</div>
+

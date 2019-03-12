@@ -1,0 +1,219 @@
+D:\project\JewelryUI\JewelryUI\bin\ApplicationInsights.config
+D:\project\JewelryUI\JewelryUI\bin\roslyn\csc.exe
+D:\project\JewelryUI\JewelryUI\bin\roslyn\csc.exe.config
+D:\project\JewelryUI\JewelryUI\bin\roslyn\csc.rsp
+D:\project\JewelryUI\JewelryUI\bin\roslyn\csi.exe
+D:\project\JewelryUI\JewelryUI\bin\roslyn\csi.rsp
+D:\project\JewelryUI\JewelryUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\project\JewelryUI\JewelryUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\project\JewelryUI\JewelryUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\project\JewelryUI\JewelryUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\project\JewelryUI\JewelryUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\project\JewelryUI\JewelryUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\project\JewelryUI\JewelryUI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\project\JewelryUI\JewelryUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\project\JewelryUI\JewelryUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\project\JewelryUI\JewelryUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\project\JewelryUI\JewelryUI\bin\roslyn\System.AppContext.dll
+D:\project\JewelryUI\JewelryUI\bin\roslyn\System.Collections.Immutable.dll
+D:\project\JewelryUI\JewelryUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\project\JewelryUI\JewelryUI\bin\roslyn\System.IO.FileSystem.dll
+D:\project\JewelryUI\JewelryUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\project\JewelryUI\JewelryUI\bin\roslyn\System.Reflection.Metadata.dll
+D:\project\JewelryUI\JewelryUI\bin\roslyn\vbc.exe
+D:\project\JewelryUI\JewelryUI\bin\roslyn\vbc.exe.config
+D:\project\JewelryUI\JewelryUI\bin\roslyn\vbc.rsp
+D:\project\JewelryUI\JewelryUI\bin\roslyn\VBCSCompiler.exe
+D:\project\JewelryUI\JewelryUI\bin\roslyn\VBCSCompiler.exe.config
+D:\project\JewelryUI\JewelryUI\bin\JewelryUI.dll.config
+D:\project\JewelryUI\JewelryUI\bin\JewelryUI.dll
+D:\project\JewelryUI\JewelryUI\bin\JewelryUI.pdb
+D:\project\JewelryUI\JewelryUI\bin\EntityFramework.dll
+D:\project\JewelryUI\JewelryUI\bin\EntityFramework.SqlServer.dll
+D:\project\JewelryUI\JewelryUI\bin\JewelryDB.exe
+D:\project\JewelryUI\JewelryUI\bin\Microsoft.AI.Agent.Intercept.dll
+D:\project\JewelryUI\JewelryUI\bin\Microsoft.AI.DependencyCollector.dll
+D:\project\JewelryUI\JewelryUI\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\project\JewelryUI\JewelryUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\project\JewelryUI\JewelryUI\bin\Microsoft.AI.Web.dll
+D:\project\JewelryUI\JewelryUI\bin\Microsoft.AI.WindowsServer.dll
+D:\project\JewelryUI\JewelryUI\bin\Microsoft.ApplicationInsights.dll
+D:\project\JewelryUI\JewelryUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\project\JewelryUI\JewelryUI\bin\Microsoft.Web.Infrastructure.dll
+D:\project\JewelryUI\JewelryUI\bin\System.Web.Helpers.dll
+D:\project\JewelryUI\JewelryUI\bin\System.Web.Mvc.dll
+D:\project\JewelryUI\JewelryUI\bin\System.Web.Razor.dll
+D:\project\JewelryUI\JewelryUI\bin\System.Web.Webpages.Deployment.dll
+D:\project\JewelryUI\JewelryUI\bin\System.Web.Webpages.dll
+D:\project\JewelryUI\JewelryUI\bin\System.Web.Webpages.Razor.dll
+D:\project\JewelryUI\JewelryUI\bin\JewelryDB.pdb
+D:\project\JewelryUI\JewelryUI\bin\EntityFramework.xml
+D:\project\JewelryUI\JewelryUI\bin\EntityFramework.SqlServer.xml
+D:\project\JewelryUI\JewelryUI\bin\Microsoft.AI.DependencyCollector.xml
+D:\project\JewelryUI\JewelryUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\project\JewelryUI\JewelryUI\bin\Microsoft.AI.Web.xml
+D:\project\JewelryUI\JewelryUI\bin\Microsoft.AI.WindowsServer.xml
+D:\project\JewelryUI\JewelryUI\bin\Microsoft.ApplicationInsights.xml
+D:\project\JewelryUI\JewelryUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\project\JewelryUI\JewelryUI\bin\System.Web.Razor.xml
+D:\project\JewelryUI\JewelryUI\bin\System.Web.Webpages.xml
+D:\project\JewelryUI\JewelryUI\bin\System.Web.Webpages.Deployment.xml
+D:\project\JewelryUI\JewelryUI\bin\System.Web.Webpages.Razor.xml
+D:\project\JewelryUI\JewelryUI\bin\System.Web.Helpers.xml
+D:\project\JewelryUI\JewelryUI\bin\System.Web.Mvc.xml
+D:\project\JewelryUI\JewelryUI\obj\Release\JewelryUI.csprojResolveAssemblyReference.cache
+D:\project\JewelryUI\JewelryUI\obj\Release\JewelryUI.dll
+D:\project\JewelryUI\JewelryUI\obj\Release\JewelryUI.pdb
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\ApplicationInsights.config
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\csc.exe
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\csc.exe.config
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\csc.rsp
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\csi.exe
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\csi.rsp
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\System.AppContext.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\System.Collections.Immutable.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\System.IO.FileSystem.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\System.Reflection.Metadata.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\vbc.exe
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\vbc.exe.config
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\vbc.rsp
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\VBCSCompiler.exe
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\roslyn\VBCSCompiler.exe.config
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\JewelryUI.dll.config
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\JewelryUI.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\JewelryUI.pdb
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\EntityFramework.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\EntityFramework.SqlServer.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\JewelryDB.exe
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\Microsoft.AI.Agent.Intercept.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\Microsoft.AI.DependencyCollector.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\Microsoft.AI.Web.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\Microsoft.AI.WindowsServer.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\Microsoft.ApplicationInsights.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\Microsoft.Web.Infrastructure.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\System.Web.Helpers.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\System.Web.Mvc.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\System.Web.Razor.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\System.Web.Webpages.Deployment.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\System.Web.Webpages.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\System.Web.Webpages.Razor.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\JewelryDB.pdb
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\JewelryDB.exe.config
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\EntityFramework.xml
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\EntityFramework.SqlServer.xml
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\Microsoft.AI.DependencyCollector.xml
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\Microsoft.AI.Web.xml
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\Microsoft.AI.WindowsServer.xml
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\Microsoft.ApplicationInsights.xml
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\System.Web.Razor.xml
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\System.Web.Webpages.xml
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\System.Web.Webpages.Deployment.xml
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\System.Web.Webpages.Razor.xml
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\System.Web.Helpers.xml
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\bin\System.Web.Mvc.xml
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\obj\Release\JewelryUI.csprojResolveAssemblyReference.cache
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\obj\Release\JewelryUI.dll
+D:\project\Complete Project - Copy\JewelryUI\JewelryUI\obj\Release\JewelryUI.pdb
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\ApplicationInsights.config
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\csc.exe
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\csc.exe.config
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\csc.rsp
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\csi.exe
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\csi.rsp
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\System.AppContext.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\System.Collections.Immutable.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\System.IO.FileSystem.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\System.Reflection.Metadata.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\vbc.exe
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\vbc.exe.config
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\vbc.rsp
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\VBCSCompiler.exe
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\roslyn\VBCSCompiler.exe.config
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\JewelryUI.dll.config
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\JewelryUI.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\JewelryUI.pdb
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\EntityFramework.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\EntityFramework.SqlServer.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\JewelryDB.exe
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.AI.Agent.Intercept.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.AI.DependencyCollector.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.AI.Web.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.AI.WindowsServer.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.ApplicationInsights.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.Owin.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.Owin.Security.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.Web.Infrastructure.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Newtonsoft.Json.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Owin.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\System.Net.Http.Formatting.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\System.Web.Helpers.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\System.Web.Http.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\System.Web.Http.WebHost.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\System.Web.Mvc.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\System.Web.Razor.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\System.Web.Webpages.Deployment.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\System.Web.Webpages.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\System.Web.Webpages.Razor.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\JewelryDB.pdb
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\JewelryDB.exe.config
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\EntityFramework.xml
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\EntityFramework.SqlServer.xml
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.AI.DependencyCollector.xml
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.AI.Web.xml
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.AI.WindowsServer.xml
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.ApplicationInsights.xml
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.Owin.xml
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Microsoft.Owin.Security.xml
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\Newtonsoft.Json.xml
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\System.Net.Http.Formatting.xml
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\System.Web.Http.xml
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\System.Web.Http.WebHost.xml
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\System.Web.Razor.xml
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\System.Web.Webpages.xml
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\System.Web.Webpages.Deployment.xml
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\System.Web.Webpages.Razor.xml
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\System.Web.Helpers.xml
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\bin\System.Web.Mvc.xml
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\obj\Release\JewelryUI.csprojResolveAssemblyReference.cache
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\obj\Release\JewelryUI.dll
+D:\project\Complete Project - Sealed\JewelryUI\JewelryUI\obj\Release\JewelryUI.pdb

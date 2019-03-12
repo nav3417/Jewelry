@@ -1,0 +1,9 @@
+﻿@using JewelryUI.Models
+@{
+    ViewBag.Title = "bycategory";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    List<ProductSummaryModel> products = ViewBag.bycategory;
+}
+
+@Html.Partial("~/Views/Products/_SummaryList.cshtml", products)
+

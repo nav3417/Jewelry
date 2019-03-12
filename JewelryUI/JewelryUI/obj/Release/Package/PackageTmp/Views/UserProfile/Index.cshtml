@@ -1,0 +1,89 @@
+﻿@using JewelryUI.Models;
+@{
+    ViewBag.Title = "Index";
+    UserModel currentUser = (UserModel)Session[WebUtil.CURRENT_USER];
+    List<OrderModel> orders = ViewBag.order;
+}
+<div style="clear:both"></div>
+<div>
+    @if (orders != null)
+    {
+        <div class="row">
+            <div class="col-lg-8">
+                <h2 style="color:red; text-align-last:center">Orders</h2>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+
+                            <th>Orderdate</th>
+                            <th>OrderHolder</th>
+                            <th>Contact No</th>
+                            <th>Amount</th>
+                            <th>city</th>
+                            <th>status</th>
+                            <th>Detail</th>
+                            <th>Delete</th>
+
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (orders != null)
+                        {
+                            foreach (var cItem in orders)
+                            {
+                                <tr>
+
+                                    <td>@cItem.orderdate</td>
+                                    <td id="name">@cItem.OrderHolder </td>
+                                    <td>@cItem.cellno</td>
+                                    <td id="amount">@cItem.totalAmount</td>
+                                    <td>@cItem.City</td>
+                                    <td id="status"><a href="javascript:status('@cItem.Id')">@cItem.status</a></td>
+                                    <td><a href="javascript:showOrderdetail('@cItem.Id')"> Detail</a></td>
+                                    <td><a href="/order/delete/@cItem.Id">Delete</a></td>
+
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="h5" style="color:red">No Order is recieved yet</div>
+    }
+</div>
+<div id="Ordedetail"></div>
+<div id="stat"></div>
+<script src="~/Scripts/jquery-3.1.1.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script type="text/javascript">
+    function showOrderdetail(Id) {
+        $("#loginModel").modal();
+        $.ajax
+        ({
+            url: "/Order/detail/" + Id,
+            type: "get",
+            success: function (result) {
+                $("#Ordedetail").html(result)
+            }
+        });
+    }
+    function status(Id) {
+        $("#status").modal();
+        $.ajax
+        ({
+            url: "/Order/status/" + Id,
+            type: "get",
+            success: function (result) {
+                alert(result)
+                $("#Ordedetail").html(result)
+            }
+        });
+    }
+</script>
+
+

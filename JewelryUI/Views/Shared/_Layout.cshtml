@@ -1,0 +1,156 @@
+﻿@using JewelryUI.Models
+@{ 
+    List<SelectListItem> Categories = ViewBag.categories;
+    List<SelectListItem> Types = ViewBag.types;
+    List<SelectListItem> Colors = ViewBag.colors;
+    UserModel currentUser = (UserModel)Session[WebUtil.CURRENT_USER];
+}
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <link href="~/Content/main.css" rel="stylesheet" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-fixed-top navbar-inverse">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        Gew<span class="glyphicon glyphicon-certificate"></span>elary
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            @Html.ActionLink("Latest Products", "Latest", "Products")
+                        </li>
+                        <li>
+                            <a href="/Cart/ViewCart"> Cart <span id="cartitems" class="badge">0</span></a>
+                        </li>
+                    </ul>
+                    @if (currentUser == null)
+                    {
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;Manage User<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        @Html.ActionLink("SignIn", "login", "Users")
+                                        @Html.ActionLink("Create Account", "Signup", "Users")
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    }
+                    @if (currentUser != null)
+                    {
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;@currentUser.FullName<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        @Html.ActionLink("Log Out", "Logout", "Users")
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    }
+                   
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="leftsection" class="col-lg-3">
+                <div class="logo"><img src="~/Images/logo.jpg" class="img-responsive logo" /></div>
+                @if (Categories != null)
+                {
+                    <div class="list-group">
+                        <ul><li class="list-group-item active" >Search By Categories</li>
+
+                            @foreach (var c in Categories)
+                            {
+                                <li class="list-group-item">@Html.ActionLink(c.Text, "ByCategory", "Products", new { id = Convert.ToInt32(c.Value) }, null)</li>
+                            }
+                        </ul>
+                    </div>
+                }
+                @if (Colors != null)
+                {
+                    <div class="list-group">
+                        <ul><li  class="list-group-item active">Search By Colors</li>
+
+                            @foreach (var c in Colors)
+                            {
+                                <li class="list-group-item">@Html.ActionLink(c.Text, "ByType", "Products", new { id = Convert.ToInt32(c.Value) }, null)</li>
+                            }
+                        </ul>
+                    </div>
+                }
+                @if (Types != null)
+                {
+                    <div class="list-group">
+                        <ul><li  class="list-group-item active">Search By Types</li>
+
+                            @foreach (var c in Types)
+                            {
+                                <li class="list-group-item">@Html.ActionLink(c.Text, "byColor", "Products", new { id = Convert.ToInt32(c.Value) }, null)</li>
+                            }
+                        </ul>
+                    </div>
+                }
+            </div>
+                <div>&nbsp;</div>
+                <div class="col-lg-9">
+                    <div class="thumbnail">
+                        <img src="~/Images/banners/banner.jpg" class="img-responsive"/>
+                    </div>
+                    <div>
+                        @RenderBody()
+                    </div>
+                </div>    
+        </div>
+        
+    </div>
+    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".addcartbtn").click(function () {
+                var obj = {
+                    "Id": $(this).data("pid"),
+                    "Name": $(this).data("pname"),
+                    "Price": $(this).data("pprice"),
+                    "ImageUrl": $(this).data("purl"),
+                    "Quantity": $(this).data("pqty")
+                };
+                $.ajax(
+                  {
+                      url: "/Cart/Add",
+                      type: "get",
+                      data: obj
+                  }).done(function (itemscount) {
+                      $("#cartitems").text(itemscount);
+                  });
+            });
+        });
+
+    </script>
+</body>
+</html>

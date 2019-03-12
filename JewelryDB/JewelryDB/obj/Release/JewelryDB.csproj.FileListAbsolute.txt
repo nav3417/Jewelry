@@ -1,0 +1,39 @@
+D:\project\JewelryDB\JewelryDB\bin\Release\JewelryDB.exe.config
+D:\project\JewelryDB\JewelryDB\bin\Release\JewelryDB.exe
+D:\project\JewelryDB\JewelryDB\bin\Release\JewelryDB.pdb
+D:\project\JewelryDB\JewelryDB\bin\Release\EntityFramework.dll
+D:\project\JewelryDB\JewelryDB\bin\Release\EntityFramework.SqlServer.dll
+D:\project\JewelryDB\JewelryDB\bin\Release\EntityFramework.xml
+D:\project\JewelryDB\JewelryDB\bin\Release\EntityFramework.SqlServer.xml
+D:\project\JewelryDB\JewelryDB\obj\Release\JewelryDB.csprojResolveAssemblyReference.cache
+D:\project\JewelryDB\JewelryDB\obj\Release\JewelryDB.exe
+D:\project\JewelryDB\JewelryDB\obj\Release\JewelryDB.pdb
+D:\project\Complete Project - Copy\JewelryDB\JewelryDB\bin\Release\JewelryDB.exe.config
+D:\project\Complete Project - Copy\JewelryDB\JewelryDB\bin\Release\JewelryDB.exe
+D:\project\Complete Project - Copy\JewelryDB\JewelryDB\bin\Release\JewelryDB.pdb
+D:\project\Complete Project - Copy\JewelryDB\JewelryDB\bin\Release\EntityFramework.dll
+D:\project\Complete Project - Copy\JewelryDB\JewelryDB\bin\Release\EntityFramework.SqlServer.dll
+D:\project\Complete Project - Copy\JewelryDB\JewelryDB\bin\Release\EntityFramework.xml
+D:\project\Complete Project - Copy\JewelryDB\JewelryDB\bin\Release\EntityFramework.SqlServer.xml
+D:\project\Complete Project - Copy\JewelryDB\JewelryDB\obj\Release\JewelryDB.csprojResolveAssemblyReference.cache
+D:\project\Complete Project - Copy\JewelryDB\JewelryDB\obj\Release\JewelryDB.Migrations.UserProfile.resources
+D:\project\Complete Project - Copy\JewelryDB\JewelryDB\obj\Release\JewelryDB.Migrations.Order.resources
+D:\project\Complete Project - Copy\JewelryDB\JewelryDB\obj\Release\JewelryDB.csproj.GenerateResource.Cache
+D:\project\Complete Project - Copy\JewelryDB\JewelryDB\obj\Release\JewelryDB.exe
+D:\project\Complete Project - Copy\JewelryDB\JewelryDB\obj\Release\JewelryDB.pdb
+D:\project\Complete Project - Sealed\JewelryDB\JewelryDB\bin\Release\JewelryDB.exe.config
+D:\project\Complete Project - Sealed\JewelryDB\JewelryDB\bin\Release\JewelryDB.exe
+D:\project\Complete Project - Sealed\JewelryDB\JewelryDB\bin\Release\JewelryDB.pdb
+D:\project\Complete Project - Sealed\JewelryDB\JewelryDB\bin\Release\EntityFramework.dll
+D:\project\Complete Project - Sealed\JewelryDB\JewelryDB\bin\Release\EntityFramework.SqlServer.dll
+D:\project\Complete Project - Sealed\JewelryDB\JewelryDB\bin\Release\EntityFramework.xml
+D:\project\Complete Project - Sealed\JewelryDB\JewelryDB\bin\Release\EntityFramework.SqlServer.xml
+D:\project\Complete Project - Sealed\JewelryDB\JewelryDB\obj\Release\JewelryDB.csprojResolveAssemblyReference.cache
+D:\project\Complete Project - Sealed\JewelryDB\JewelryDB\obj\Release\JewelryDB.Migrations.InitialCreate.resources
+D:\project\Complete Project - Sealed\JewelryDB\JewelryDB\obj\Release\JewelryDB.Migrations.SecondHandJewelry.resources
+D:\project\Complete Project - Sealed\JewelryDB\JewelryDB\obj\Release\JewelryDB.Migrations.SecondHandJewelry1.resources
+D:\project\Complete Project - Sealed\JewelryDB\JewelryDB\obj\Release\JewelryDB.Migrations.context.resources
+D:\project\Complete Project - Sealed\JewelryDB\JewelryDB\obj\Release\JewelryDB.Migrations.User.resources
+D:\project\Complete Project - Sealed\JewelryDB\JewelryDB\obj\Release\JewelryDB.csproj.GenerateResource.Cache
+D:\project\Complete Project - Sealed\JewelryDB\JewelryDB\obj\Release\JewelryDB.exe
+D:\project\Complete Project - Sealed\JewelryDB\JewelryDB\obj\Release\JewelryDB.pdb

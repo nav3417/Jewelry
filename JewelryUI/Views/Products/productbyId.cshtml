@@ -1,0 +1,79 @@
+﻿@using JewelryUI.Models
+@model ProductDetailModel
+@{
+    ViewBag.Title = "Product Detail";
+    ProductDetailModel products = ViewBag.products;
+}
+
+ <div class="modal fade" id="productbyid" role="dialog" style="height:400px">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header" style="color:red">
+               <a href="/Home/Index"><span aria-hidden="true">&times;</span></a>
+                <div class="modal-title" id="title">@ViewBag.Title</div>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <table class="table-bordered">
+                            <tbody>
+                                <tr class="productid">
+
+                                    <th>Name:</th>
+                                    <td>@products.Name</td>
+                                </tr>
+                                <tr class="productid">
+                                    <th>Price:</th>
+                                    <td>@products.Price</td>
+                                </tr>
+                                <tr class="productid">
+                                    <th>Type:</th>
+                                    <td>@products.type</td>
+                                </tr>
+                                <tr class="productid">
+                                    <th>Category:</th>
+                                    <td>@products.Category</td>
+                                </tr>
+                                <tr class="productid">
+                                    <th>Color:</th>
+                                    <td>@products.Color</td>
+                                </tr>
+                                <tr class="productid">
+                                    <th>Description</th>
+                                    <td>@products.Description</td>
+                                </tr>
+                                <tr class="productid">
+                                    <td>Release Date</td>
+                                    <td>@products.ReleaseDate</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-lg-6">
+                        <div><img src="@Url.Content(products.ImageUrl)" alt="@products.Name" style="width:100px;height:100px"/> </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/Scripts/jquery-3.1.1.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script type="text/javascript">
+        $(function () {
+            $("#productbyid").modal();
+            $("#productbyid").click(function () {
+                $.ajax(
+                    {
+                        url: "/Home/Index/",
+                        type: "get",
+                        success:alert("hi")
+                    }
+                   )
+            })
+
+        });
+</script>
+

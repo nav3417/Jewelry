@@ -1,0 +1,58 @@
+﻿body{
+    
+}
+
+.prodsmyitem{
+    text-align:center;
+
+}
+
+.prodsmyitem h2{
+    color:#ff0000;
+    font-size:120%;
+    font-weight:bold;
+    padding:10px;
+    margin:0px;
+}
+.prodsmyitem p{
+    font-weight:bold;
+    padding:0px 0px 0px 10px;
+    margin:0px;
+}
+.product{
+    height:200px;
+    width:250px;
+}
+.mainbannerwpr{
+    margin-bottom:30px;
+
+}
+.mytab{
+    border-left:solid 1px #e4e4e4;
+    border-right:solid 1px #e4e4e4;
+    border-bottom:solid 1px #e4e4e4;
+    padding:20px;
+}
+.titlebar{
+    background-color:blue;
+}
+.logo{
+    height:150px;
+    width:300px;
+}
+.color{
+    color:white;
+}
+.align{
+    text-align:right
+}
+.list-group-item
+{
+    height:25px;
+    padding:0px;
+}
+.list--group
+{
+    margin-bottom:5px;
+}
+

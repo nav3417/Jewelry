@@ -1,0 +1,40 @@
+﻿@using JewelryUI.Models
+@{
+    ViewBag.Title = "Admin_Home";
+    Layout = "~/Views/Shared/_Adminlayout.cshtml";
+    List<ProductSummaryModel> Produtcs = ViewBag.jewelries;
+}
+<h4>Products</h4>
+<div class="col-lg-7">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th style="width:20px">Image</th>
+                <th >Name</th>
+                <th>Price</th>
+                <th>Category</th>
+                <th>&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var i in Produtcs)
+            {
+
+              
+            <tr>
+                <td><img style="height:30px;width:30px" src="@Url.Content(i.ImageUrl)" alt="@i.Name"/></td>
+                <td>@i.Name</td>
+                <td>@i.Price</td>
+                <td>@i.Category</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id =i.Id}) |
+                    @Html.ActionLink("Detail", "Details", new { id = i.Id }) |
+                    @*@Html.ActionLink("Delete", "Delete", new { id = i.Id })*@
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+

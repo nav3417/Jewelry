@@ -1,0 +1,29 @@
+﻿@using JewelryUI.Models
+@model IEnumerable<ProductSummaryModel>
+
+<link href="~/Content/main.css" rel="stylesheet" />
+@if (Model != null)
+{
+    <div class="row">
+        @foreach (var p in Model)
+        {
+            <div id="proditem" class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                <div class="thumbnail img-responsive prodsmyitem">
+                    <img src="@Url.Content(p.ImageUrl)" alt="@p.Name" style="height:100px"/>
+                    <h2>
+                        @p.Name
+                    </h2>
+                    <p>
+                        @string.Format("{0:N0}", p.Price)
+                    </p>
+                    <p class="cartbtnwpr">
+                        <button type="button" class="btn btn-default btn-sm addcartbtn" data-pid="@p.Id" data-pname="@p.Name" data-pprice="@p.Price" data-purl="@p.ImageUrl" data-pqty="1">
+                            <span class="glyphicon glyphicon-shopping-cart"></span>Cart
+                        </button>
+                        <a href="/Products/productbyId/@p.Id"><span class="glyphicon glyphicon-check"></span>Detail</a>
+                    </p>
+                </div>
+            </div>
+        }
+    </div>
+}

@@ -1,0 +1,43 @@
+﻿@using JewelryUI.Models
+@using JewelryDB.Jewlry
+@{ 
+    List<SelectListItem> Categories = ModelHelper.ToSelectItemList(new JewelryHandler().Getcategories());
+    List<SelectListItem> Colors = ModelHelper.ToSelectItemList(new JewelryHandler().GetColors());
+    List<SelectListItem> Types = ModelHelper.ToSelectItemList(new JewelryHandler().GetTypes());
+}
+@if (Categories != null)
+{
+    <div class="list-group">
+        <ul class="list-group-item-heading">
+
+            @foreach (var c in Categories)
+            {
+                <li class="list-group-item">@Html.ActionLink(c.Text, "ByCategory", "Products", new { id = Convert.ToInt32(c.Value) }, null)</li>
+            }
+        </ul>
+    </div>
+}
+@if (Colors != null)
+{
+    <div class="list-group">
+        <ul class="list-group-item-heading">
+
+            @foreach (var c in Colors)
+            {
+                <li class="list-group-item">@Html.ActionLink(c.Text, "ByType", "Products", new { id = Convert.ToInt32(c.Value) }, null)</li>
+            }
+        </ul>
+    </div>
+}
+@if (Types != null)
+{
+    <div class="list-group">
+        <ul class="list-group-item-heading">
+
+            @foreach (var c in Types)
+            {
+                <li class="list-group-item">@Html.ActionLink(c.Text, "byColor", "Products", new { id = Convert.ToInt32(c.Value) }, null)</li>
+            }
+        </ul>
+    </div>
+}
